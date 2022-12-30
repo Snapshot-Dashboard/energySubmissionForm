@@ -1,0 +1,121 @@
+.InputCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DataInputButton {
+    margin: 1rem;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+/* 
+.InputCard {
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    margin: 1rem 0 0 0;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+    color: rgb(55, 55, 55);
+}
+
+button:active {
+    opacity: .5;
+    transform: scale(.9);
+}
+
+.Category {
+    background-color: white;
+    width: 25%;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+    transition: .2s all ease-in-out;
+}
+
+.CategoryActive {
+    background-color: white;
+    width: 25%;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+} */
+
+.IconSelected {
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.Icon {
+    display: none;
+}
+
+.Option {
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 1rem;
+}
+
+.Option:hover {
+    background-color: rgb(240, 240, 240);
+    color: rgb(55, 55, 55);
+}
+
+.Option:active {
+    opacity: .5;
+    transform: scale(.9);
+}
+
+.OptionNonActive:active {
+    opacity: .5;
+    transform: scale(.9);
+}
+
+.OptionNonActive {
+    opacity: .25;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
