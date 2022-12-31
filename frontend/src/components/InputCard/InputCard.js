@@ -12,6 +12,7 @@ const InputCard = ({ OilList, setOilList }) => {
     const [OptionSelected, setOptionSelected] = useState(0)
 
     const handleSubmit = () => {
+        if (!Category || !DateOfData || !Value) return
         // Axios.post('http://localhost:4000/api/oil', { Category: OptionSelected, DateOfData, Value })
         setOilList([...OilList, { Category, DateOfData, Value }])
         setCategory('')
@@ -22,7 +23,6 @@ const InputCard = ({ OilList, setOilList }) => {
     const handleCategory = (idx) => {
         setCategory(idx)
         setOptionSelected(idx)
-        console.log(idx) // ! Still can't figure out the category. Maybe try it anyways?
     }
 
     return (

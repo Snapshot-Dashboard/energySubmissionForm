@@ -29,7 +29,7 @@ const OilList = ({ OilList }) => {
                     return (
                         <div key={Date.now()} className='OilCard'>
                             <div className="OilData">
-                                {OilData.Category === 3 ? 'REG. GAS' : OilData.Category === 2 ? 'NAT. GAS' : OilData.Category === 1 ? 'NO-SPR' : OilData.Category === 0 ? 'SPR' : ''}
+                                {OilData.Category === 3 ? 'REG. GAS' : OilData.Category === 2 ? 'NAT. GAS' : OilData.Category === 1 ? 'NO-SPR' : OilData.Category === 0 ? 'SPR' : 'SPR'}
                             </div>
                             <div className="OilData">
                                 {OilData.DateOfData}
